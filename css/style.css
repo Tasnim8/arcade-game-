@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+}
+
+.score-panel {
+  margin: auto;
+  text-align: left;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.score-panel .lifes {
+  display: inline-block;
+}
+
+.score-panel .lifes h3 {
+  vertical-align: top;
+}
+
+.score-panel .restart {
+  padding-top: 3px;
+  float: right;
+  cursor: pointer;
+}
+
+.score-panel .time {
+  display: inline-block;
+}
+
+.score-panel .score {
+}
+
+h3{
+  display: inline;
+}
+/*style for congratulation section*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 26px;
+  background: #34d976;
+  padding: 11px 20px 10px 20px;
+  border: solid #1f628d 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+#win {
+  display: none;
+  position: fixed;
+  background-color: rgba(0,0,0,0.4);
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container h1,p{
+  color : #fff;
+}
